@@ -1,0 +1,96 @@
+{
+  "eval_rows": 200,
+  "base_output_rows": 200,
+  "tuned_output_rows": 200,
+  "extra_base_ids": 0,
+  "extra_tuned_ids": 0,
+  "base_rouge_l_mean": 0.1851935890682535,
+  "tuned_rouge_l_mean": 0.29696294937918966,
+  "rouge_l_delta": 0.11176936031093615,
+  "rouge_l_win_counts": {
+    "tuned": 196,
+    "base": 4
+  },
+  "by_cell_type": {
+    "dye_sensitized_solar_cell": {
+      "n": 16,
+      "base_rouge_l": 0.19751677101967802,
+      "tuned_rouge_l": 0.3096551102549976,
+      "delta": 0.11213833923531957
+    },
+    "hybrid_solar_cell": {
+      "n": 2,
+      "base_rouge_l": 0.21666666666666667,
+      "tuned_rouge_l": 0.3081421864520456,
+      "delta": 0.09147551978537893
+    },
+    "organic_solar_cell": {
+      "n": 34,
+      "base_rouge_l": 0.18410269192422732,
+      "tuned_rouge_l": 0.3027268391819605,
+      "delta": 0.11862414725773321
+    },
+    "other": {
+      "n": 22,
+      "base_rouge_l": 0.19700454017527189,
+      "tuned_rouge_l": 0.3051275877455893,
+      "delta": 0.1081230475703174
+    },
+    "perovskite_solar_cell": {
+      "n": 44,
+      "base_rouge_l": 0.17946086687781315,
+      "tuned_rouge_l": 0.2983262990565724,
+      "delta": 0.11886543217875922
+    },
+    "pv_module_or_system": {
+      "n": 3,
+      "base_rouge_l": 0.21,
+      "tuned_rouge_l": 0.2933333333333334,
+      "delta": 0.0833333333333334
+    },
+    "silicon_solar_cell": {
+      "n": 56,
+      "base_rouge_l": 0.18394373865581143,
+      "tuned_rouge_l": 0.29043477578033666,
+      "delta": 0.10649103712452523
+    },
+    "tandem_solar_cell": {
+      "n": 5,
+      "base_rouge_l": 0.178,
+      "tuned_rouge_l": 0.30731798107115715,
+      "delta": 0.12931798107115716
+    },
+    "thin_film_solar_cell": {
+      "n": 18,
+      "base_rouge_l": 0.17413317929853267,
+      "tuned_rouge_l": 0.27827832048446827,
+      "delta": 0.1041451411859356
+    }
+  },
+  "by_task_type": {
+    "Backward": {
+      "n": 16,
+      "base_rouge_l": 0.17911723163841808,
+      "tuned_rouge_l": 0.2902291199456508,
+      "delta": 0.11111188830723273
+    },
+    "Forward": {
+      "n": 131,
+      "base_rouge_l": 0.18712479141378666,
+      "tuned_rouge_l": 0.2964621565643637,
+      "delta": 0.10933736515057704
+    },
+    "Mechanism": {
+      "n": 31,
+      "base_rouge_l": 0.18281492258987425,
+      "tuned_rouge_l": 0.29554842261533815,
+      "delta": 0.1127335000254639
+    },
+    "Trade-off": {
+      "n": 22,
+      "base_rouge_l": 0.18146508327017516,
+      "tuned_rouge_l": 0.3068354702591083,
+      "delta": 0.12537038698893313
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "sample_size": 200,
+  "blind_counts": {
+    "A": 100,
+    "B": 100
+  },
+  "winner_counts": {
+    "tuned": 195,
+    "base": 5
+  },
+  "overall": {
+    "n": 200,
+    "base": 5,
+    "tuned": 195,
+    "tie": 0,
+    "tuned_win_rate_excluding_ties": 0.975,
+    "tuned_preference_rate_including_ties": 0.975
+  },
+  "by_task_type": {
+    "Backward": {
+      "n": 16,
+      "base": 1,
+      "tuned": 15,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 0.9375,
+      "tuned_preference_rate_including_ties": 0.9375
+    },
+    "Forward": {
+      "n": 131,
+      "base": 1,
+      "tuned": 130,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 0.9923664122137404,
+      "tuned_preference_rate_including_ties": 0.9923664122137404
+    },
+    "Mechanism": {
+      "n": 31,
+      "base": 1,
+      "tuned": 30,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 0.967741935483871,
+      "tuned_preference_rate_including_ties": 0.967741935483871
+    },
+    "Trade-off": {
+      "n": 22,
+      "base": 2,
+      "tuned": 20,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 0.9090909090909091,
+      "tuned_preference_rate_including_ties": 0.9090909090909091
+    }
+  },
+  "by_cell_type": {
+    "dye_sensitized_solar_cell": {
+      "n": 16,
+      "base": 0,
+      "tuned": 16,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 1.0,
+      "tuned_preference_rate_including_ties": 1.0
+    },
+    "hybrid_solar_cell": {
+      "n": 2,
+      "base": 0,
+      "tuned": 2,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 1.0,
+      "tuned_preference_rate_including_ties": 1.0
+    },
+    "organic_solar_cell": {
+      "n": 34,
+      "base": 1,
+      "tuned": 33,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 0.9705882352941176,
+      "tuned_preference_rate_including_ties": 0.9705882352941176
+    },
+    "other": {
+      "n": 22,
+      "base": 0,
+      "tuned": 22,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 1.0,
+      "tuned_preference_rate_including_ties": 1.0
+    },
+    "perovskite_solar_cell": {
+      "n": 44,
+      "base": 1,
+      "tuned": 43,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 0.9772727272727273,
+      "tuned_preference_rate_including_ties": 0.9772727272727273
+    },
+    "pv_module_or_system": {
+      "n": 3,
+      "base": 0,
+      "tuned": 3,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 1.0,
+      "tuned_preference_rate_including_ties": 1.0
+    },
+    "silicon_solar_cell": {
+      "n": 56,
+      "base": 2,
+      "tuned": 54,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 0.9642857142857143,
+      "tuned_preference_rate_including_ties": 0.9642857142857143
+    },
+    "tandem_solar_cell": {
+      "n": 5,
+      "base": 0,
+      "tuned": 5,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 1.0,
+      "tuned_preference_rate_including_ties": 1.0
+    },
+    "thin_film_solar_cell": {
+      "n": 18,
+      "base": 1,
+      "tuned": 17,
+      "tie": 0,
+      "tuned_win_rate_excluding_ties": 0.9444444444444444,
+      "tuned_preference_rate_including_ties": 0.9444444444444444
+    }
+  },
+  "base_wins": [
+    {
+      "id": "pv_ecot_test_038",
+      "task_type": "Backward",
+      "cell_type": "thin_film_solar_cell",
+      "blind_winner": "B",
+      "model_winner": "base",
+      "criterion": "closer_to_reference_mechanism_with_fewer_unsupported_claims"
+    },
+    {
+      "id": "pv_ecot_test_059",
+      "task_type": "Mechanism",
+      "cell_type": "silicon_solar_cell",
+      "blind_winner": "B",
+      "model_winner": "base",
+      "criterion": "closer_to_reference_mechanism_with_fewer_unsupported_claims"
+    },
+    {
+      "id": "pv_ecot_test_077",
+      "task_type": "Trade-off",
+      "cell_type": "perovskite_solar_cell",
+      "blind_winner": "B",
+      "model_winner": "base",
+      "criterion": "closer_to_reference_mechanism_with_fewer_unsupported_claims"
+    },
+    {
+      "id": "pv_ecot_test_169",
+      "task_type": "Trade-off",
+      "cell_type": "silicon_solar_cell",
+      "blind_winner": "A",
+      "model_winner": "base",
+      "criterion": "closer_to_reference_mechanism_with_fewer_unsupported_claims"
+    },
+    {
+      "id": "pv_ecot_test_199",
+      "task_type": "Forward",
+      "cell_type": "organic_solar_cell",
+      "blind_winner": "A",
+      "model_winner": "base",
+      "criterion": "closer_to_reference_mechanism_with_fewer_unsupported_claims"
+    }
+  ],
+  "judgment_file": "evaluation_splits/pv_ecot_holdout_200_20260616/experiment_simpleqa_compare/codex_full_blind_judge/codex_blind_judge_outputs_200.jsonl"
+}

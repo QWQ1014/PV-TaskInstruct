@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+Extraction_project/config.py
+Extraction_project/data/
+outputs/
+checkpoints/
+*.db
+*.sqlite*
+*.log
+*.xlsx
+*.pdf
+*.docx

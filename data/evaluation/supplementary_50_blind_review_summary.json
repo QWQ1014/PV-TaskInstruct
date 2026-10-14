@@ -1,0 +1,39 @@
+{
+  "n": 50,
+  "blind_counts": {
+    "tuned": 34,
+    "base": 16
+  },
+  "tuned_preference_rate": 68.0,
+  "base_preference_rate": 32.0,
+  "tie_rate": 0.0,
+  "missing_count": 0,
+  "invalid_choices": [],
+  "by_task": {
+    "Backward": {
+      "base": 1,
+      "tuned": 1,
+      "n": 2
+    },
+    "Forward": {
+      "tuned": 18,
+      "base": 3,
+      "n": 21
+    },
+    "Mechanism": {
+      "base": 10,
+      "tuned": 14,
+      "n": 24
+    },
+    "Trade-off": {
+      "base": 2,
+      "tuned": 1,
+      "n": 3
+    }
+  },
+  "auto_blind_agreement": {
+    "comparable_n": 50,
+    "agree_n": 29,
+    "agreement_rate": 58.0
+  }
+}

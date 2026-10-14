@@ -1,0 +1,3 @@
+aiofiles
+openai
+pydantic>=2

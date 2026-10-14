@@ -1,0 +1,15 @@
+{
+  "n": 50,
+  "base_rouge_l_mean": 0.169752,
+  "tuned_rouge_l_mean": 0.21489,
+  "delta_mean": 0.045137,
+  "winners": {
+    "tuned": 43,
+    "base": 7,
+    "tie": 0
+  },
+  "base_error_count": 0,
+  "tuned_error_count": 0,
+  "base_avg_len": 369.28,
+  "tuned_avg_len": 282.34
+}

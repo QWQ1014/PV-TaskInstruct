@@ -1,0 +1,29 @@
+{
+  "n": 200,
+  "final_accept_counts": {
+    "Y": 180,
+    "N": 20
+  },
+  "final_accept_rate": 90.0,
+  "final_quality_counts": {
+    "A": 111,
+    "B": 69,
+    "C": 20
+  },
+  "final_error_type_counts": {
+    "None": 111,
+    "Over-generalization": 56,
+    "Out of PV scope": 17,
+    "Other": 5,
+    "Mechanism incomplete": 6,
+    "Wrong direction": 1,
+    "Context unsupported": 4
+  },
+  "adjudication_type_counts": {
+    "agreement": 181,
+    "manual_reject": 19
+  },
+  "manual_reject_count": 19,
+  "manual_reject_out_of_pv_scope": 17,
+  "manual_reject_context_unsupported": 4
+}

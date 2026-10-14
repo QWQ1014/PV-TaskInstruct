@@ -1,0 +1,61 @@
+{
+  "input_file": "pv_result_mechanism_attribution_style_v3_full.jsonl",
+  "enriched_source_file": "pv_ecot_core_train_v2_safe_no_revision_enriched.jsonl",
+  "seed": 20260616,
+  "strategy": "200-row held-out split from evidence-grounded literature_input rows; stratified by cell_type; train/test isolated by source_file.",
+  "full_rows": 3481,
+  "full_unique_source_files": 3433,
+  "eligible_literature_input_single_source_rows": 2035,
+  "train_rows": 3281,
+  "test_rows": 200,
+  "train_unique_source_files": 3233,
+  "test_unique_source_files": 200,
+  "source_overlap_count": 0,
+  "target_test_cell_counts": {
+    "thin_film_solar_cell": 18,
+    "silicon_solar_cell": 56,
+    "perovskite_solar_cell": 44,
+    "organic_solar_cell": 34,
+    "other": 22,
+    "tandem_solar_cell": 5,
+    "dye_sensitized_solar_cell": 16,
+    "pv_module_or_system": 3,
+    "hybrid_solar_cell": 2
+  },
+  "actual_test_cell_counts": {
+    "dye_sensitized_solar_cell": 16,
+    "other": 22,
+    "silicon_solar_cell": 56,
+    "thin_film_solar_cell": 18,
+    "perovskite_solar_cell": 44,
+    "organic_solar_cell": 34,
+    "tandem_solar_cell": 5,
+    "hybrid_solar_cell": 2,
+    "pv_module_or_system": 3
+  },
+  "test_chain_type_counts": {
+    "Trade-off": 22,
+    "Forward": 131,
+    "Mechanism": 31,
+    "Backward": 16
+  },
+  "test_answer_style_counts": {
+    "mechanism_flow": 36,
+    "concise_expert": 27,
+    "contrastive_boundary": 30,
+    "conclusion_first": 71,
+    "parameter_diagnostic": 36
+  },
+  "test_input_mode_counts": {
+    "literature_input": 200
+  },
+  "train_input_mode_counts": {
+    "literature_input": 1889,
+    "no_input_style": 1392
+  },
+  "exact_duplicate_instruction_count": 0,
+  "exact_duplicate_input_count": 0,
+  "exact_duplicate_output_count": 0,
+  "near_duplicate_question_count_jaccard_ge_0_90": 0,
+  "max_question_char_5gram_jaccard": 0.4681
+}
